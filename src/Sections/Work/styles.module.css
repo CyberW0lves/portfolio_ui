@@ -1,0 +1,81 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.left {
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.img{
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.heading {
+    color: var(--lightest-slate);
+    font-family: var(--font-sans);
+    font-size: var(--fz-heading);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.heading:hover {
+    color: var(--green);
+}
+
+.desc {
+    background-color: var(--light-navy);
+    box-shadow: 0 10px 30px -15px var(--navy-shadow);
+    color: var(--light-slate);
+    font-family: var(--font-sans);
+    line-height: 20px;
+    font-size: var(--fz-md);
+    padding: 20px;
+    z-index: 2;
+    width: 120%;
+    border-radius: 5px;
+}
+
+.skill_container {
+    font-size: var(--fz-sm);
+    margin-bottom: 12px;
+    display: flex;
+}
+
+.skill_container > p {
+    margin: 0;
+    margin-left: 12px;
+}
+
+.links_container {
+    display: flex;
+}
+
+.link {
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.link:hover {
+    color: var(--green);
+}

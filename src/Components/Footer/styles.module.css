@@ -1,0 +1,11 @@
+.footer_container {
+    display: flex;
+    justify-content: center;
+    height: 50;
+}
+
+.text {
+    font-size: var(--fz-md);
+    color: var(--light-slate);
+    font-weight: 500;
+}

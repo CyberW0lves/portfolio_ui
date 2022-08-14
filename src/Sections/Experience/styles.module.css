@@ -1,0 +1,72 @@
+.container{
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 200px);
+    padding-top: 80px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.tab {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    cursor: pointer;
+    font-size: var(--fz-lg);
+    border-left: 2px solid var(--lightest-navy);
+    transition: var(--transition);
+    border-radius: 2px;
+}
+
+.tab:hover {
+    background: var(--lightest-navy);
+    color: var(--green);
+}
+
+.active_tab {
+    background: var(--lightest-navy);
+    color: var(--green);
+    border-left: 2px solid var(--green);
+}
+
+.right {
+    padding-left: 20px;
+    font-family: var(--font-sans);
+}
+
+.title {
+    margin: 0;
+    line-height: 50px;
+    font-weight: 500;
+    font-size: var(--fz-xxl);
+}
+
+.title > a {
+    color: var(--green);
+}
+
+.duration {
+    font-family: var(--font-mono);
+    margin: 0;
+    font-size: var(--fz-sm);
+    color: var(--slate);
+}
+
+.desc {
+    display: flex;
+    align-items: center;
+    font-size: var(--fz-md);
+    color: var(--slate);
+}
+
+.desc > svg {
+    color: var(--green);
+    width: 15px;
+    height: 15px;
+    margin-right: 15px;
+}

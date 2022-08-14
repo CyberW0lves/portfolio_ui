@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 200px);
+}
+
+.left {
+    flex: 1;
+}
+
+.desc {
+    font-family: var(--font-sans);
+    color: var(--slate);
+    font-size: var(--fz-lg);
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile_img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.img_border {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    border: 2px solid var(--green);
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+    transition: var(--transition);
+    z-index: -1;
+}
+
+.profile_img:hover ~ .img_border {
+    margin-top: 15px;
+    margin-left: 15px;
+}

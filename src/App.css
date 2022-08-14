@@ -1,0 +1,7 @@
+.app_section_container {
+    position: relative;
+    width: calc(100% - 300px);
+    top: 0;
+    left: 150px;
+    z-index: 2
+}

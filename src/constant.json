@@ -1,0 +1,58 @@
+{
+    "experiences": [
+        {
+            "company": "Microsoft",
+            "link": "/",
+            "title": "Sr. Frontend Developer",
+            "duration": "Aug 2021 - Present",
+            "desc": [
+                "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+                "when an unknown printer took a galley of type and scrambled.",
+                "It is a long established fact that a reader will be distracted."
+            ]
+        },
+        {
+            "company": "Apple",
+            "link": "/",
+            "title": "Jr. Frontend Developer",
+            "duration": "Jan 2021 - Aug 2021",
+            "desc": [
+                "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+                "when an unknown printer took a galley of type and scrambled.",
+                "Various versions have evolved over the years, sometimes by accident"
+            ]
+        },
+        {
+            "company": "Google",
+            "link": "/",
+            "title": "Internship",
+            "duration": "Sep 2020 - Jan 2021",
+            "desc": [
+                "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+                "when an unknown printer took a galley of type and scrambled.",
+                "It is a long established fact that a reader will be distracted."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "title":"Ecommerce",
+            "image": "./images/project_1.png",
+            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "skills": ["React", "Express", "MongoDB"],
+            "github": "/",
+            "link": ""
+        },
+        {
+            "title":"Spotify",
+            "image": "./images/project_2.png",
+            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "skills": ["React", "Express", "MongoDB"],
+            "github": "/",
+            "link": "/"
+        }
+    ]
+}
